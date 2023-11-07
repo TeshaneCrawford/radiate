@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxthq/studio'
   ],
   content: {
     // ... options
