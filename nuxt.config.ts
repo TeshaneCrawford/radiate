@@ -14,6 +14,6 @@ export default defineNuxtConfig({
   },
   css: [
     '~/assets/css/main.css',
-    '@unocss/reset/tailwind.css'
+    // '@unocss/reset/tailwind.css'
   ],
 })
