@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@nuxtjs/fontaine',
     '@nuxtjs/google-fonts',
     '@unocss/nuxt',
+    '@vueuse/nuxt'
   ],
   content: {
     // ... options
