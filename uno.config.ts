@@ -21,13 +21,15 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify(),
-    presetIcons(),
+    presetIcons({
+      scale: 1.2,
+    }),
     presetTypography(),
     presetWebFonts({
       fonts: {
-				sans: 'DM Sans',
-        // serif: 'Overpass',
-				// mono: 'Averia Serif Libre',
+        sans: 'DM Sans',
+        serif: 'DM Serif Display',
+        mono: 'DM Mono',
       },
     }),
   ],

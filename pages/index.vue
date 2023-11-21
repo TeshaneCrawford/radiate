@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div>
+  <div prose ma>
     Main Content
   </div>
 </template>
